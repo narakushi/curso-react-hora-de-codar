@@ -10,7 +10,6 @@ function App() {
     profissao: 'Programador',
     foto: 'https:via.placeholder.com/150'
   }
-  const url = 'https://via.placeholder.com/150';
 
   return (
     <div className='App'>
