@@ -10,7 +10,6 @@ function List() {
                 <Item marca='Renault'/>
                 <Item marca="Chevrolet" ano_lancamento={1999}/>
                 <Item />
-                <Item />
             </ul>
         </>
 
