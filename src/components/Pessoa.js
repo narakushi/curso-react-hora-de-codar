@@ -1,10 +1,10 @@
-function Pessoa(nome, idade, profissao, foto){
+function Pessoa({dados}){
     return (
         <div>
-            <img src={foto} alt={nome}/>
-            <h2>Nome: {nome}</h2>
-            <p>Idade: {idade}</p>
-            <p>Profissão: {profissao}</p>
+            <img src={dados.foto} alt={dados.nome}/>
+            <h2>Nome: {dados.nome}</h2>
+            <p>Idade: {dados.idade}</p>
+            <p>Profissão: {dados.profissao}</p>
         </div>
     )
 }

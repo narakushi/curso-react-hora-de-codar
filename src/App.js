@@ -16,7 +16,7 @@ function App() {
       <SayMyName nome="Matheus" />
       <SayMyName nome="Tai" />
       <SayMyName nome={name} />
-      <Pessoa dados={pessoa}/>
+      <Pessoa dados={pessoa} />
     </div>
   );
 }
