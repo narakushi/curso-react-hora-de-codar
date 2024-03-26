@@ -19,4 +19,5 @@ Item.defaultProps = {
     ano_lancamento: 0
 }
 
+
 export default Item;
